@@ -53,6 +53,10 @@ impl Tile {
     pub fn is_blocked(&self) -> bool {
         self.is_blocked
     }
+
+    pub fn index(&self) -> usize {
+        self.index
+    }
 }
 
 impl Map {
